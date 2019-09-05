@@ -15,3 +15,12 @@ h1 {
     border-radius: 10px;
     margin: auto;
 }
+
+.cardSuit {
+    width: 30px;
+    height: 35px;
+}
+
+#heart, #diamond {
+    color: darkred;
+}
