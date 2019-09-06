@@ -16,10 +16,7 @@ h1 {
     margin: auto;
 }
 
-.cardSuit {
-    width: 30px;
-    height: 35px;
-}
+
 
 #heart, #diamond {
     color: darkred;
@@ -46,3 +43,10 @@ h1 {
 .spotC3 { position: absolute; left: 2.50em; top: 2.0em; }
 .spotC4 { position: absolute; left: 2.50em; top: 2.5em; }
 .spotC5 { position: absolute; left: 2.50em; top: 3.5em; }
+
+.ace {
+    font-size: 300%;
+    position: absolute;
+    left: 0.325em;
+    top:  0.250em;
+  }
