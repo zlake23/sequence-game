@@ -10,15 +10,14 @@
         <h1>Sequence</h1>
         <div id="game-container">
             
-            <div class="board">
+            <div id="board">
 
-                <div class="row column" id="row0">
-
+                <div class="grid" id="row0">
                     <div class="blankCard"></div>
 
                     <div class="cardSix">
                         <div class="front">
-                        <div class="index">6<br />&diams;</div>
+                        <div class="index red">6<br />&diams;</div>
                         <div class="cardSuit six spotA1" id="diamond">&diams;</div>
                         <div class="cardSuit six spotA3" id="diamond">&diams;</div>
                         <div class="cardSuit six spotA5" id="diamond">&diams;</div>
@@ -30,7 +29,7 @@
                     
                     <div class="cardSeven">
                         <div class="front">
-                        <div class="index">7<br />&diams;</div>
+                        <div class="index red">7<br />&diams;</div>
                         <div class="cardSuit seven spotA1" id="diamond">&diams;</div>
                         <div class="cardSuit seven spotA3" id="diamond">&diams;</div>
                         <div class="cardSuit seven spotA5" id="diamond">&diams;</div>
@@ -43,7 +42,7 @@
                     
                     <div class="cardEight">
                         <div class="front">
-                        <div class="index">8<br />&diams;</div>
+                        <div class="index red">8<br />&diams;</div>
                         <div class="cardSuit eight spotA1" id="diamond">&diams;</div>
                         <div class="cardSuit eight spotA3" id="diamond">&diams;</div>
                         <div class="cardSuit eight spotA5" id="diamond">&diams;</div>
@@ -56,8 +55,8 @@
                     </div>
                     
                     <div class="cardNine">
-                        <div class="front">
-                        <div class="index">9<br />&diams;</div>
+                        <div class="front red">
+                        <div class="index red">9<br />&diams;</div>
                         <div class="cardSuit nine spotA1" id="diamond">&diams;</div>
                         <div class="cardSuit nine spotA2" id="diamond">&diams;</div>
                         <div class="cardSuit nine spotA4" id="diamond">&diams;</div>
@@ -71,8 +70,8 @@
                     </div>
                 
                     <div class="cardTen">
-                        <div class="front">
-                        <div class="index">10<br />&diams;</div>
+                        <div class="front red">
+                        <div class="index red">10<br />&diams;</div>
                         <div class="cardSuit ten spotA1" id="diamond">&diams;</div>
                         <div class="cardSuit ten spotA2" id="diamond">&diams;</div>
                         <div class="cardSuit ten spotA4" id="diamond">&diams;</div>
@@ -91,17 +90,17 @@
 
                     <div class="cardAce">
                         <div class="front">
-                        <div class="insert">A<br />&diams;</div>
+                        <div class="index red">A<br />&diams;</div>
                         <div class="cardSuit ace" id="diamond">&diams;</div>
                         </div>
                     </div>
                     <div class="blankCard"></div>
                 </div>
 
-                <div class="row column" id="row1">
+                <div class="grid" id="row1">
                     <div class="cardFive">
                         <div class="front">
-                        <div class="index">5<br />&diams;</div>
+                        <div class="index red">5<br />&diams;</div>
                         <div class="cardSuit five spotA1" id="diamond">&diams;</div>
                         <div class="cardSuit five spotA5" id="diamond">&diams;</div>
                         <div class="cardSuit five spotB3" id="diamond">&diams;</div>
@@ -112,7 +111,7 @@
                     
                     <div class="cardThree">
                         <div class="front">
-                        <div class="index">3<br />&hearts;</div>
+                        <div class="index red">3<br />&hearts;</div>
                         <div class="cardSuit three spotB1" id="heart">&hearts;</div>
                         <div class="cardSuit three spotB3" id="heart">&hearts;</div>
                         <div class="cardSuit three spotB5" id="heart">&hearts;</div> 
@@ -121,7 +120,7 @@
                     
                     <div class="cardTwo">
                         <div class="front">
-                        <div class="index">2<br />&hearts;</div>
+                        <div class="index red">2<br />&hearts;</div>
                         <div class="cardSuit two spotB1" id="heart">&hearts;</div>
                         <div class="cardSuit two spotB5" id="heart">&hearts;</div>
                         </div>
@@ -197,10 +196,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="row column" id="row2">
+                <div class="grid" id="row2">
                     <div class="cardFour">
                         <div class="front">
-                        <div class="index">4<br />&diams;</div>
+                        <div class="index red">4<br />&diams;</div>
                         <div class="cardSuit four spotA1" id="diamond">&diams;</div>
                         <div class="cardSuit four spotA5" id="diamond">&diams;</div>
                         <div class="cardSuit four spotC1" id="diamond">&diams;</div>
@@ -210,7 +209,7 @@
 
                     <div class="cardFour">
                         <div class="front">
-                        <div class="index">4<br />&hearts;</div>
+                        <div class="index red">4<br />&hearts;</div>
                         <div class="cardSuit four spotA1" id="heart">&hearts;</div>
                         <div class="cardSuit four spotA5" id="heart">&hearts;</div>
                         <div class="cardSuit four spotC1" id="heart">&hearts;</div>
@@ -222,7 +221,7 @@
 
                     <div class="cardAce">
                         <div class="front">
-                        <div class="index">A<br />&diams;</div>
+                        <div class="index red">A<br />&diams;</div>
                         <div class="cardSuit ace" id="diamond">&diams;</div>
                         </div>
                     </div>
@@ -270,11 +269,11 @@
                     <div class="cardSuit king" id="club">&clubs;</div>
 
                 </div>
-                <div class="row column" id="row3">
+                <div class="grid" id="row3">
 
                     <div class="cardThree">
                         <div class="front">
-                        <div class="index">3<br />&diams;</div>
+                        <div class="index red">3<br />&diams;</div>
                         <div class="cardSuit three spotB1" id="diamond">&diams;</div>
                         <div class="cardSuit three spotB3" id="diamond">&diams;</div>
                         <div class="cardSuit three spotB5" id="diamond">&diams;</div>
@@ -283,7 +282,7 @@
                     
                     <div class="cardFive">
                         <div class="front">
-                        <div class="index">5<br />&hearts;</div>
+                        <div class="index red">5<br />&hearts;</div>
                         <div class="cardSuit five spotA1" id="heart">&hearts;</div>
                         <div class="cardSuit five spotA5" id="heart">&hearts;</div>
                         <div class="cardSuit five spotB3" id="heart">&hearts;</div>
@@ -297,7 +296,7 @@
 
                     <div class="cardTen">
                         <div class="front">
-                        <div class="index">10<br />&hearts;</div>
+                        <div class="index red">10<br />&hearts;</div>
                         <div class="cardSuit ten spotA1" id="heart">&hearts;</div>
                         <div class="cardSuit ten spotA2" id="heart">&hearts;</div>
                         <div class="cardSuit ten spotA4" id="heart">&hearts;</div>
@@ -313,7 +312,7 @@
                     
                     <div class="cardNine">
                         <div class="front">
-                        <div class="index">9<br />&hearts;</div>
+                        <div class="index red">9<br />&hearts;</div>
                         <div class="cardSuit nine spotA1" id="heart">&hearts;</div>
                         <div class="cardSuit nine spotA2" id="heart">&hearts;</div>
                         <div class="cardSuit nine spotA4" id="heart">&hearts;</div>
@@ -328,7 +327,7 @@
                    
                     <div class="cardEight">
                         <div class="front">
-                        <div class="index">8<br />&hearts;</div>
+                        <div class="index red">8<br />&hearts;</div>
                         <div class="cardSuit eight spotA1" id="heart">&hearts;</div>
                         <div class="cardSuit eight spotA3" id="heart">&hearts;</div>
                         <div class="cardSuit eight spotA5" id="heart">&hearts;</div>
@@ -372,11 +371,11 @@
                     
                     <div class="cardSuit queen" id="club">&clubs;</div>
                 </div>
-                <div class="row column" id="row4">
+                <div class="grid" id="row4">
 
                     <div class="cardTwo">
                         <div class="front">
-                        <div class="index">2<br />&diams;</div>
+                        <div class="index red">2<br />&diams;</div>
                         <div class="cardSuit two spotB1" id="diamond">&diams;</div>
                         <div class="cardSuit two spotB5" id="diamond">&diams;</div>
                         </div>
@@ -384,7 +383,7 @@
                    
                    <div class="cardSix">
                         <div class="front">
-                        <div class="index">6<br />&hearts;</div>
+                        <div class="index red">6<br />&hearts;</div>
                         <div class="cardSuit six spotA1" id="heart">&hearts;</div>
                         <div class="cardSuit six spotA3" id="heart">&hearts;</div>
                         <div class="cardSuit six spotA5" id="heart">&hearts;</div>
@@ -396,7 +395,7 @@
 
                     <div class="cardTen">
                         <div class="front">
-                        <div class="index">10<br />&diams;</div>
+                        <div class="index red">10<br />&diams;</div>
                         <div class="cardSuit ten spotA1" id="diamond">&diams;</div>
                         <div class="cardSuit ten spotA2" id="diamond">&diams;</div>
                         <div class="cardSuit ten spotA4" id="diamond">&diams;</div>
@@ -414,7 +413,7 @@
 
                      <div class="cardThree">
                          <div class="front">
-                        <div class="index">3<br />&hearts;</div>
+                        <div class="index red">3<br />&hearts;</div>
                         <div class="cardSuit three spotB1" id="heart">&hearts;</div>
                         <div class="cardSuit three spotB3" id="heart">&hearts;</div>
                         <div class="cardSuit three spotB5" id="heart">&hearts;</div>
@@ -423,7 +422,7 @@
                     
                     <div class="cardTwo">
                         <div class="front">
-                        <div class="index">2<br />&hearts;</div>
+                        <div class="index red">2<br />&hearts;</div>
                         <div class="cardSuit two spotB1" id="heart">&hearts;</div>
                         <div class="cardSuit two spotB5" id="heart">&hearts;</div>
                         </div>
@@ -431,7 +430,7 @@
 
                     <div class="cardSeven">
                         <div class="front">
-                        <div class="index">7<br />&hearts;</div>
+                        <div class="index red">7<br />&hearts;</div>
                         <div class="cardSuit seven spotA1" id="heart">&hearts;</div>
                         <div class="cardSuit seven spotA3" id="heart">&hearts;</div>
                         <div class="cardSuit seven spotA5" id="heart">&hearts;</div>
@@ -489,7 +488,7 @@
                     </div>
                     
                 </div>
-                <div class="row column" id="row5">
+                <div class="grid" id="row5">
 
                     <div class="cardAce">
                         <div class="front">
@@ -500,7 +499,7 @@
 
                     <div class="cardSeven">
                         <div class="front">
-                        <div class="index">7<br />&hearts;</div>
+                        <div class="index red">7<br />&hearts;</div>
                         <div class="cardSuit seven spotA1" id="heart">&hearts;</div>
                         <div class="cardSuit seven spotA3" id="heart">&hearts;</div>
                         <div class="cardSuit seven spotA5" id="heart">&hearts;</div>
@@ -513,7 +512,7 @@
                     
                     <div class="cardNine">
                         <div class="front">
-                        <div class="index">9<br />&diams;</div>
+                        <div class="index red">9<br />&diams;</div>
                         <div class="cardSuit nine spotA1" id="diamond">&diams;</div>
                         <div class="cardSuit nine spotA2" id="diamond">&diams;</div>
                         <div class="cardSuit nine spotA4" id="diamond">&diams;</div>
@@ -528,14 +527,14 @@
                     
                     <div class="cardAce">
                         <div class="front">
-                        <div class="index">A<br />&hearts;</div>
+                        <div class="index red">A<br />&hearts;</div>
                         <div class="cardSuit ace" id="heart">&hearts;</div>
                         </div>
                     </div>
 
                     <div class="cardFour">
                         <div class="front">
-                        <div class="index">4<br />&hearts;</div>
+                        <div class="index red">4<br />&hearts;</div>
                         <div class="cardSuit four spotA1" id="heart">&hearts;</div>
                         <div class="cardSuit four spotA5" id="heart">&hearts;</div>
                         <div class="cardSuit four spotC1" id="heart">&hearts;</div>
@@ -545,7 +544,7 @@
                     
                     <div class="cardFive">
                         <div class="front">
-                        <div class="index">5<br />&hearts;</div>
+                        <div class="index red">5<br />&hearts;</div>
                         <div class="cardSuit five spotA1" id="heart">&hearts;</div>
                         <div class="cardSuit five spotA5" id="heart">&hearts;</div>
                         <div class="cardSuit five spotB3" id="heart">&hearts;</div>
@@ -556,7 +555,7 @@
                     
                     <div class="cardSix">
                         <div class="front">
-                        <div class="index">6<br />&hearts;</div>
+                        <div class="index red">6<br />&hearts;</div>
                         <div class="cardSuit six spotA1" id="heart">&hearts;</div>
                         <div class="cardSuit six spotA3" id="heart">&hearts;</div>
                         <div class="cardSuit six spotA5" id="heart">&hearts;</div>
@@ -598,12 +597,12 @@
                     
                 </div>
 
-                <div class="row column" id="row6">
+                <div class="grid" id="row6">
                     <div class="cardSuit king" id="spade">&spades;</div>
 
                     <div class="cardEight">
                         <div class="front">
-                        <div class="index">8<br />&hearts;</div>
+                        <div class="index red">8<br />&hearts;</div>
                         <div class="cardSuit eight spotA1" id="heart">&hearts;</div>
                         <div class="cardSuit eight spotA3" id="heart">&hearts;</div>
                         <div class="cardSuit eight spotA5" id="heart">&hearts;</div>
@@ -617,7 +616,7 @@
                     
                     <div class="cardEight">
                         <div class="front">
-                        <div class="index">8<br />&diams;</div>
+                        <div class="index red">8<br />&diams;</div>
                         <div class="cardSuit eight spotA1" id="diamond">&diams;</div>
                         <div class="cardSuit eight spotA3" id="diamond">&diams;</div>
                         <div class="cardSuit eight spotA5" id="diamond">&diams;</div>
@@ -698,12 +697,12 @@
                     </div>
                 </div>
 
-                <div class="row column" id="row7">
+                <div class="grid" id="row7">
                     <div class="cardSuit queen" id="spade">&spades;</div>
 
                     <div class="cardNine">
                         <div class="front">
-                        <div class="index">9<br />&hearts;</div>
+                        <div class="index red">9<br />&hearts;</div>
                         <div class="cardSuit nine spotA1" id="heart">&hearts;</div>
                         <div class="cardSuit nine spotA2" id="heart">&hearts;</div>
                         <div class="cardSuit nine spotA4" id="heart">&hearts;</div>
@@ -718,7 +717,7 @@
                     
                     <div class="cardSeven">
                         <div class="front">
-                        <div class="index">7<br />&diams;</div>
+                        <div class="index red">7<br />&diams;</div>
                         <div class="cardSuit seven spotA1" id="diamond">&diams;</div>
                         <div class="cardSuit seven spotA3" id="diamond">&diams;</div>
                         <div class="cardSuit seven spotA5" id="diamond">&diams;</div>
@@ -731,7 +730,7 @@
                     
                     <div class="cardSix">
                         <div class="front">
-                        <div class="index">6<br />&diams;</div>
+                        <div class="index red">6<br />&diams;</div>
                         <div class="cardSuit six spotA1" id="diamond">&diams;</div>
                         <div class="cardSuit six spotA3" id="diamond">&diams;</div>
                         <div class="cardSuit six spotA5" id="diamond">&diams;</div>
@@ -743,7 +742,7 @@
                     
                     <div class="cardFive">
                         <div class="front">
-                        <div class="index">4<br />&diams;</div>
+                        <div class="index red">4<br />&diams;</div>
                         <div class="cardSuit five spotA1" id="diamond">&diams;</div>
                         <div class="cardSuit five spotA5" id="diamond">&diams;</div>
                         <div class="cardSuit five spotB3" id="diamond">&diams;</div>
@@ -754,7 +753,7 @@
                     
                     <div class="cardFour">
                         <div class="front">
-                        <div class="index">4<br />&diams;</div>
+                        <div class="index red">4<br />&diams;</div>
                         <div class="cardSuit four spotA1" id="diamond">&diams;</div>
                         <div class="cardSuit four spotA5" id="diamond">&diams;</div>
                         <div class="cardSuit four spotC1" id="diamond">&diams;</div>
@@ -764,7 +763,7 @@
                    
                     <div class="cardThree">
                         <div class="front">
-                        <div class="index">3<br />&diams;</div>
+                        <div class="index red">3<br />&diams;</div>
                         <div class="cardSuit three spotB1" id="diamond">&diams;</div>
                         <div class="cardSuit three spotB3" id="diamond">&diams;</div>
                         <div class="cardSuit three spotB5" id="diamond">&diams;</div>
@@ -773,7 +772,7 @@
                     
                     <div class="cardTwo">
                         <div class="front">
-                        <div class="index">2<br />&diams;</div>
+                        <div class="index red">2<br />&diams;</div>
                         <div class="cardSuit two spotB1" id="diamond">&diams;</div>
                         <div class="cardSuit two spotB5" id="diamond">&diams;</div>
                         </div>
@@ -800,7 +799,7 @@
                     </div>
                 </div>
 
-                <div class="row column" id="row8">
+                <div class="grid" id="row8">
                     <div class="cardTen">
                         <div class="front">
                         <div class="index">10<br />&spades;</div>
@@ -819,7 +818,7 @@
                     
                     <div class="cardTen">
                         <div class="front">
-                        <div class="index">10<br />&hearts;</div>
+                        <div class="index red">10<br />&hearts;</div>
                         <div class="cardSuit ten spotA1" id="heart">&hearts;</div>
                         <div class="cardSuit ten spotA2" id="heart">&hearts;</div>
                         <div class="cardSuit ten spotA4" id="heart">&hearts;</div>
@@ -838,7 +837,7 @@
 
                     <div class="cardAce">
                         <div class="front">
-                        <div class="index">A<br />&hearts;</div>
+                        <div class="index red">A<br />&hearts;</div>
                         <div class="cardSuit ace" id="heart">&hearts;</div>
                         </div>
                     </div>
@@ -894,7 +893,7 @@
                     </div>
                 </div>
 
-                <div class="row column" id="row9">
+                <div class="grid" id="row9">
                     <div class="blankCard"></div>
 
                     <div class="cardNine">
