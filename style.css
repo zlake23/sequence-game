@@ -10,8 +10,8 @@ h1 {
 
 #game-container {
     border: 2px solid black;
-    width: 600px;
-    height: 700px;
+    width: 620px;
+    height: 800px;
     border-radius: 10px;
     margin: auto;
 }
@@ -30,14 +30,24 @@ h1 {
     color: darkred;
 }
 
+#board {
+    width: 95%;
+    height: 95%;
+    background-color: lightgrey;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10px;
+}
 
-
-.grid {
+.grid-row {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-column-gap: 5px;
-    grid-row-gap: none;
+    grid-template-rows: repeat(10, 1fr);
+}
+
+.grid-column {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
 }
 
 .spotA1 { position: absolute; left: 0.60em; top: 0.5em; }
@@ -61,8 +71,9 @@ h1 {
     background-color: #ffffff;
     color: #000000;
     position: absolute;
-    width: 4em;
-    height: 5em;
+    width: 3.5em;
+    height: 4.75em;
+    margin-top: 2px;
     border: 1px solid black;
     border-radius: 3px; 
   }
