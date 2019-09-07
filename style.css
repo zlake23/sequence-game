@@ -18,22 +18,19 @@ h1 {
 
 
 
-#heart, #diamond {
+#heart, #diamond, .red {
     color: darkred;
 }
 
-.row {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    
-}
 
-.column {
+
+.grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
 }
-
-
 
 .spotA1 { position: absolute; left: 0.60em; top: 0.5em; }
 .spotA2 { position: absolute; left: 0.60em; top: 1.5em; }
