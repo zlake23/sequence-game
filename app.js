@@ -1,13 +1,13 @@
-const cardObj = document.getElementsByClassName('card');
+const gameBoard = () => Array.from(document.getElementsByClassName('card'));
 
 function clickCard() {
     console.log('You clicked a card');
 }
 
-function clickObj() {
-    cardObj.addEventListener('click', function() {
-        clickCard();
-    });
-}
+const cardListeners = () => gameBoard().forEach(cardEl => cardEl.addEventListener('click', clickCard));
 
-clickObj();
+cardListeners();
+
+
+
+
