@@ -9,5 +9,11 @@ const cardListeners = () => gameBoard().forEach(cardEl => cardEl.addEventListene
 cardListeners();
 
 
+function playerTurn() {
 
+};
+
+function sequenceWin() {
+
+};
 
